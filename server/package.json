@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "ts-node src/index.ts",
-    "dev": "nodemon src/index.ts"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc"
   },
   "author": "bikram",
   "license": "ISC",
